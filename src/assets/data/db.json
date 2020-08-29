@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "productName": "Lenovo Laptop",
+      "description": "Lenovo B2IN Ideapad S145 Laptop",
+      "rating": 5,
+      "price": 100,
+      "productImg": "http://localhost:4200/assets/len.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "productName": "Hp laptop",
+      "description": "New Inspiron 15 7501 Laptop",
+      "rating": 3,
+      "price": 91,
+      "productImg": "http://localhost:4200/assets/hp.jpg",
+      "isAvailable": true,
+      "color": "black",
+      "reviews": 10
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "productName": "Oppo Reno",
+      "description": "Oppo Reno 10x Zoom (jet Black, 128 Gb, 4065 Mah)",
+      "rating": 3,
+      "price": 34343,
+      "productImg": "http://localhost:4200/assets/oppo.jpg",
+      "isAvailable": true,
+      "color": "blue",
+      "reviews": 10
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "productName": "Realme C3",
+      "description": "Realme C3 64 GB, 4 GB RAM, Frozen Blue, Smartphone",
+      "rating": 2,
+      "price": 10200,
+      "productImg": "http://localhost:4200/assets/real.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "productName": "Intex It 881s 16 W Laptop/Desktop Speaker",
+      "description": "A movie or a game is more enjoyable when the audio is loud and clear. So whether you are watching a movie or playing a game on your desktop computer.",
+      "rating": 4,
+      "price": 899,
+      "productImg": "http://localhost:4200/assets/speaker.jpg",
+      "isAvailable": true,
+      "color": "blue",
+      "reviews": 10
+    },
+    {"id": 7,
+      "categoryId": 4,
+      "productName": "Sony Wireless Headphone",
+      "description": "Sony WH-CH510 Wireless Headphones with 35 Hours Battery Life, Bluetooth Ver 5.0, Light Weight, Headset with mic for phone calls with Voice Assitant - (Black)",
+      "rating": 5,
+      "price": 899,
+      "productImg": "http://localhost:4200/assets/headph.jpg",
+      "isAvailable": true,
+      "color": "black",
+      "reviews": 10
+    }
+    
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Laptops"
+    },
+    {
+      "id": 2,
+      "categoryName": "Mobiles"
+    },
+    {
+      "id": 3,
+      "categoryName": "Speakers"
+    },
+    {
+      "id": 4,
+      "categoryName": "Wireless Headphone"
+    }
+    
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
